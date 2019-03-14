@@ -9,7 +9,7 @@ import { createStore, applyMiddleware, compose } from 'redux'
 import thunk from 'redux-thunk'
 import { Provider } from 'react-redux'
 import { StaticRouter } from 'react-router-dom'
-import App from '../src/app'
+import App from '../src/App'
 import reducers from '../src/reducer'
 
 import staticPath from '../build/asset-manifest.json'
