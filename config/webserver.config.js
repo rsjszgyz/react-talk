@@ -10,7 +10,7 @@ const nodeExternals = require('webpack-node-externals')
 
 const serverConfig = {
   context: path.resolve(__dirname, '..'),
-  entry: { server: '../server/server' },
+  entry: { server: './server/server' },
   output: {
     libraryTarget: 'commonjs2',
     path: path.resolve(__dirname, '../build/server'),
